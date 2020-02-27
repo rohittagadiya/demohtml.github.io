@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./lib/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="./lib/bootstrap-4.3.1-dist/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+    <script src="./lib/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid main">
+      <div class="container-fluid">
+        <div class="show1">
+            <nav class="navbar navbar-expand-sm  navbar-dark fixed-top header">
+                    <a class="navbar-brand" href="#"><img class="logo_hd" src="./assets/images/logo.png"></a>
+                    <button class="navbar-toggler navbar-dark" style="border: none;color: white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon" style="color: white"></span>
+                    </button>
+                     <div class="collapse navbar-collapse justify-content-end nav_div" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav_ul">
+                      <li class="nav-item bord dropdown">
+                        <a class="nav-link dropdown-toggle hoveraffect" href="#" data-toggle="dropdown" style="color: white;font-weight: bold">Jaimaica</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Jamiaica</a>
+                          <a class="dropdown-item" href="#">Bahyou</a>
+                          <a class="dropdown-item" href="#">Radopl</a>
+                        </div>
+                      </li>
+                      <li class="nav-item bord dropdown">
+                        <a class="nav-link dropdown-toggle hoveraffect" href="#" data-toggle="dropdown" style="color: white;font-weight: bold">Sell Tickets</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Movie</a>
+                            <a class="dropdown-item" href="#">Story</a>
+                            <a class="dropdown-item" href="#">Food</a>
+                          </div>
+                      </li>
+                      <li class="nav-item bord dropdown">
+                            <a class="nav-link dropdown-toggle hoveraffect" href="#" data-toggle="dropdown" style="color: white;font-weight: bold"><i class='fas fa-user-check'></i> Sign In</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sign Up</a>
+                                <a class="dropdown-item" href="#">Register</a>
+                                <a class="dropdown-item" href="#">About</a>
+                              </div>
+                          </li>
+                    </ul></div>              
+            </nav>
+          </div>
+            <div class="hide_nav">
+                <nav class="navbar navbar-dark fixed-top header">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo_hd" src="./assets/images/logo.png"></a> 
+                   <div id="myNav" class="overlay">
+                     <div class="side_nav">
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                      <a class="navbar-brand" href="#"><img class="logo_hd logo_hd_side" src="./assets/images/logo.png"></a> 
+                      <p style="color: white;display: block;margin: auto;padding-left: 25px">Welcome Admin</p>
+                    </div>
+                
+                <div class="overlay-content">
+                    <ul class="nav navbar-nav ">
+                      <li class="dropdown bord">
+                        <a class="dropdown-toggle" data-toggle="dropdown"  href="#" style="color: white;font-weight: bold">Jaimaica<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-right" >
+                          <li><a class="dropdown-item" href="#" style="display: inline-block">Jamiaica</a></li>
+                          <li><a class="dropdown-item" href="#">Bahyou</a></li>
+                          <li><a class="dropdown-item" href="#">Radopl</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown bord">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;font-weight: bold">Sell Tickets<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" style="display: inline-block">Movie</a></li>
+                            <li><a class="dropdown-item" href="#">Story</a></li>
+                            <li><a class="dropdown-item" href="#">Food</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown bord">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;font-weight: bold"><i class='fas fa-user-check'></i> Sign In<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#" style="display: inline-block">Sign Up</a></li>
+                              <li><a class="dropdown-item" href="#">Register</a></li>
+                              <li><a class="dropdown-item" href="#">About</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+              </div>        
+              <span style="font-size:30px;cursor:pointer;color: white" onclick="openNav()">&#9776;</span>
+            </div>  
+            </nav>
+            </div>
+          </div>
+            <div class="container-fluid container2">
+              <div class="div1">
+                  <div class="row" style="display: block"><img class="logo1" src="./assets/images/logo_big.png" style="height: 130px;"></div>
+                  <div class="row" style="display: block"><h2 class="cont1_text" style="font-family: myfont;color: white;font-size: 50px;margin-bottom: 40px">Apsession</h2></div>
+                  <div class="form-group has-search">
+                    <input type="search" class="searchbox" placeholder=" Search for events by name ..." style="background-color: rgba(0, 0, 0, 0);text-align: center;color: white;font-weight: bold;font-size: 18px;letter-spacing: 0.8px">
+                  </div>
+                  <div class="row" style="display: block"><p class="or" style="color: white;font-weight: bold;font-size:18px;">-- OR --</p></div>
+                  <div class="row textcenter" style="padding-bottom: 25px">
+                    
+                    <div class="col-lg-4 displaycontent">
+                        <div class="btn-group smcity">
+                            <button type="button" class="btn btn-light  btnheader" style="width: 200px;font-weight: bold;padding-right: 54px;letter-spacing: 0.8px;"><div class="icn"><img src="./assets/icons/location_ic.png" class="imgr1d2"></div>Select City</button>
+                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split  btnheader" data-toggle="dropdown" >
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Surat</a>
+                              <a class="dropdown-item" href="#">Navsari</a>
+                              <a class="dropdown-item" href="#">Ahemdabad</a>
+                              <a class="dropdown-item" href="#">Goa</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 displaycontent">
+                        <div class="btn-group smcity">
+                            <button type="button" class="btn btn-light btnheader" style="width: 200px;font-weight: bold;padding-right: 54px;letter-spacing: 0.8px;"><div class="icn"><img src="./assets/icons/category_ic.png" class="imgr1d2"></div> Category</button>
+                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split btnheader" data-toggle="dropdown" >
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">A</a>
+                              <a class="dropdown-item" href="#">B</a>
+                              <a class="dropdown-item" href="#">C</a>
+                              <a class="dropdown-item" href="#">D</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 displaycontent">
+                        <div class="btn-group smcity">
+                            <button  type="button" id="btn" class="btn  btnheader btnsm" ><span class="hide">Find </span><img src="./assets/icons/right.png"></button>
+                          </div>
+                    </div>
+                    
+                  </div>
+              </div>
+                 
+            </div><br>
+            <div class="container-fluid div2">
+              <div class="row">
+                <div class="col">
+              <h3 style="position: relative;left:10px;font-weight: bolder;bottom: 14px;">Upcoming events</h3></div></div>
+              <div class="row middle">
+                   <!-- <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                      <div class="r1d1">
+                      <div class="over rounded img123 d-block mx-auto r1d1 img_div"></div> <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123"> 
+                       <div class="bottom-left">Magic Summer Party</div>
+                      </div>
+                      <div class="r1d1">
+                          <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                          <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                      </div>
+                    </div>  -->
+                <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                  <div class="r1d1 shadow rounded">
+                  <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123">
+                   <div class="bottom-left">Magic Summer Party</div>
+                  </div>
+                  <div class="r1d1">
+                      <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                      <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                    <div class="r1d1 shadow rounded">
+                        <img src="./assets/home-page images/VLk66Et.jpg" class="rounded d-block mx-auto img123">
+                        <div class="bottom-left">Night Summer Party</div>
+                    </div>
+                    <div class="r1d1">
+                      <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                      <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                    <div class="r1d1 shadow rounded">
+                        <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123">
+                        <div class="bottom-left">Magic Summer Party</div>
+                    </div>
+                    <div class="r1d1">
+                        <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                        <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                    </div>
+                </div>
+              <br>
+              
+                  <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                    <div class="r1d1 shadow rounded">
+                      <img src="./assets/home-page images/VLk66Et.jpg" class="rounded d-block mx-auto img123">
+                      <div class="bottom-left">Night Summer Party</div>
+                    </div>
+                    <div class="r1d1">
+                        <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                        <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                      <div class="r1d1 shadow rounded">
+                          <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123">
+                          <div class="bottom-left">Magic Summer Party</div>
+                      </div>
+                      <div class="r1d1">
+                          <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                          <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                      <div class="r1d1 shadow rounded">
+                          <img src="./assets/home-page images/VLk66Et.jpg" class="rounded d-block mx-auto img123">
+                          <div class="bottom-left">Night Summer Party</div>
+                      </div>
+                      <div class="r1d1">
+                          <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                          <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                      </div>
+                  </div>
+                
+                
+                    <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                      <div class="r1d1 shadow rounded">
+                        <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123">
+                        <div class="bottom-left">Magic Summer Party</div>
+                      </div>
+                      <div class="r1d1">
+                          <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                          <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                        <div class="r1d1 shadow rounded">
+                            <img src="./assets/home-page images/VLk66Et.jpg" class="rounded d-block mx-auto img123">
+                            <div class="bottom-left">Night Summer Party</div>
+                        </div>
+                        <div class="r1d1">
+                          <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                          <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 img_div">
+                        <div class="r1d1 shadow rounded">
+                            <img src="./assets/home-page images/ua2qdtU.jpg" class="rounded d-block mx-auto img123">
+                            <div class="bottom-left">Magic Summer Party</div>
+                        </div>
+                        <div class="r1d1">
+                            <p class="pr1d1"><img src="./assets/icons/calander.png" class="imgr1d1"> Sun, Apr 16 - Mon, Apr 27</p>
+                            <p class="pr1d1"><img src="./assets/icons/location_ic.png" class="imgr1d1"> 863 Fadel Overpass</p>
+                        </div>
+                    </div>
+                  </div><br>
+                  <div class="row" style="text-align: center">
+                    <button type="button" class="btn btnsee">See more</button>
+                  </div>
+            </div>
+            <div class="container-fluid container3">
+                <div class="container3_row">
+                  <div class=" mobile">
+				            <div class="container3_col1">
+                      <img class="phone1" src="./assets/images/mobile1.png" style="position:absolute;right:181px;top:102px;z-index: -2;">
+                      <img class="phone2" src="./assets/images/mobile.png" style="position: relative;bottom:-60px">
+					            </div>
+                    </div>
+          <div class="cont3_div2">
+					<div class="seconddiv">
+					<div class="childdiv">
+					<div class="text-center" style="margin-bottom: 12px">
+                    <img class="logo_big" src="./assets/images/logo_big.png" style="height: 100px">
+                    </div>
+					<p class="cont3_p1" style="font-weight:700;font-size:24px;margin-bottom:1rem">Take Apsession with you</p>
+                    <p class="cont3_p2" style="width:300px;font-size:16px;font-weight:700;margin-bottom:1.5rem">Download the mobile app to browse event & access your tickets on the go !</p>
+                    <a href="#"><img src="./assets/images/appstore.png" class="appgoogle appgoogle1" style="margin-right: 15px"></a>
+                   <a href="#"><img src="./assets/images/googleplay.png" class="appgoogle"></a> 
+					</div>
+                  </div>
+            </div>
+                </div>
+            </div>
+            <div class="container-fluid footer">
+              <div class="ftr">
+                <div class="row row1" style="color: white;font-size: 15px;letter-spacing: -0.5px;">
+                  <div class="col-md-7 footer_col1_div1 col-sm-6 col-6">
+                      <a href="#" class="alink col" style="padding-right: 19px">Mobile App</a>
+                      <a href="#" class="alink col" style="padding-right: 19px">Buy Tickets</a>
+                      <a href="#" class="alink col" style="padding-right: 19px">Sell Tickets</a>
+                      <a href="#" class="alink col" style="padding-right: 19px">Ticket Scanner App</a>
+                      <a href="#" class="alink col">Sales Tracking Dashboard</a>
+                  </div>
+                  <div class="col-md-5 ft_row1_div2 col-sm-6 col-6">
+                  <div class="ftlink ftright">
+                    <a href="#"  class="alink ftno"><img src="./assets/icons/mail.png" class=" ftimg" style="padding-right: 12px;height: 17px;"> info@apsession.com</a>
+                  </div>
+                  <div style="text-align: left;padding-right: 15px;float:right;" class="ftright">
+                    <p style="float: left;margin-right: 20px" class="ftno"><img src="./assets/icons/call.png" style="margin-right: 4px;height: 17px;">  + 1876-336-0271</p></div>
+                </div>
+                </div><br>
+                <div class="row ft_row2">
+                    <div class="col-md-6 col-sm-6 col-6">
+                      <p class="text-secondary" style="font-size: 13px;font-weight: bold;padding-left: 13px">  &copy; 2018 Apsession</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6">
+                      <div class="fticn">
+                        <img src="./assets/icons/f_ic.png" class="imgft" alt="">
+                        <img src="./assets/icons/i_ic.png" alt="" class="imgft">
+                        <img src="./assets/icons/t_ic.png" alt="" class="imgft">
+                        <img src="./assets/icons/s_ic.png" alt="" class="imgft">
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <script>
+        function openNav() {
+          var element=document.getElementById("myNav");
+          if(element.style.width=="50%"){
+            element.style.width="0%";
+          }else{
+            element.style.width="50%";
+          }
+        }
+        $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+    });
+        </script>
+</body>
+</html>
